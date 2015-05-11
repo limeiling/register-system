@@ -1,6 +1,9 @@
 <html>
-<head><title>Register PHP $_GET Example</title></head>
+<head><title>Register PHP</title></head>
 <body>
-You are <?php echo $_GET["name"]?>
+<?php 
+$name = $_POST['name'];
+
+
 </body>
 </html>
