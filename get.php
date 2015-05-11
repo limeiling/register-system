@@ -1,5 +1,8 @@
 <html>
-<head><title>提交成功！</title></head>
+<head>
+<link rel="stylesheet" href="css/php.css">
+<title>提交成功！</title>
+</head>
 <body>
 
 <?php 
@@ -12,12 +15,18 @@ $recommended = $_POST['recommended'];
 $email = $_POST['email'];
 $experience = $_POST['ex'];
 
-$content = "name: ".$name.";birth: ".$birth.";sex: ".$sex.";contact_person: ".$contact_person.";telephone: ".$telephone.";recommended: ".$recommended.";email: ".$email.";experience: ".$experience."\n\n";
-			
-
-$file = fopen("record.txt","a+");
-fwrite($file,$content);
+//把获取到的资料写入到本地csv格式的文件中
+$list = array
+(
+	$content = "".$name.",".$birth.",".$sex.",".$contact_person.",".$telephone.",".$recommended.",".$email.",".$experience,
+);
+$file = fopen("record.csv","a+");
+foreach ($list as $line)
+  {
+  fputcsv($file,split(',',$line));
+  }
 fclose($file);
+
 ?>
 
 <h1>提交成功！您可以关掉这个界面。</h1>
