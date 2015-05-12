@@ -37,20 +37,20 @@ li {
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: rgb(255, 169, 73);
-  text-decoration: none;
+  /*color: rgb(255, 169, 73);
+  text-decoration: none;*/
 }
 
 a:visited {
-  color: lightblue;
+  
 }
 
 a:hover {
-  color: rgba(255, 169, 73, .4);
+
 }
 
 a:active {
-  color: lightcoral;
+  
 }
 
 /* Main Styles --------------------- */
@@ -91,19 +91,22 @@ a:active {
 }
 
 
-.main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949;
+.slogan {
+
 }
-.main-footer a{
-  color:#ffa949;
+
+footer {
+  margin:0;
+  border-bottom: 30px solid #ffa949;
+  text-align: center;
+  border-color: #99CCFF;
 }
-#wrapper {
+
+/*#wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-}
+}*/
 #gallery {
   margin: 0;
   padding: 0;
@@ -127,16 +130,17 @@ a:active {
   font-size: 30px;
 }
 
-/* Layout Styles ------------------ */
+.error {
+  color:#FF0000;
+}
+
+#special {
+  color:#FF0000;
+  font-size:0.8rem;
+}
 
 
-/*.wildlife {
-  color: white;
-  background-color: #434a52;
-  padding: 18% 24%;
-  border-top: 10px solid #ffa949;
-  margin: 105px 0 60px;
-}*/
+
 
 
 
