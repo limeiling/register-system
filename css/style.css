@@ -20,11 +20,7 @@ h2 {
   margin: 0 0 .5em; /* 0 0 26px */
 }
 
-/*h3 {
-  font-size: 1.25em; /* 20px/16px  */
-  
-}
-*/
+
 /*
 li {
   display: inline-block;
@@ -42,7 +38,7 @@ a:link {
 }
 
 a:visited {
-  
+
 }
 
 a:hover {
@@ -50,7 +46,7 @@ a:hover {
 }
 
 a:active {
-  
+
 }
 
 /* Main Styles --------------------- */
@@ -86,8 +82,8 @@ a:active {
   margin-left: 55%;
   text-align: center;
   background-color: #DCDCDC;
-	padding-top: 50px;
-	padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 
@@ -106,38 +102,38 @@ footer {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-}*/
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+  }*/
+  #gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
-#gallery li {
-  float: left;
-  text-align: center;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: black;
-}
-#gallery li p{
-  background-color: white;
-  margin:0px;
-}
+  #gallery li {
+    float: left;
+    text-align: center;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: black;
+  }
+  #gallery li p{
+    background-color: white;
+    margin:0px;
+  }
 
-#gallery li p.s1{
-  font-size: 30px;
-}
+  #gallery li p.s1{
+    font-size: 30px;
+  }
 
-.error {
-  color:#FF0000;
-}
+  .error {
+    color:#FF0000;
+  }
 
-#special {
-  color:#FF0000;
-  font-size:0.8rem;
-}
+  #special {
+    color:#FF0000;
+    font-size:0.8rem;
+  }
 
 
 
