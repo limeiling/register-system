@@ -120,14 +120,14 @@
           <br><br>
           <span class="error">* <?php echo $telErr;?></span>
           联系人电话  /  Telephone<br>
-          <input type="text" name="telephone">
+          <input type="text" name="telephone" style="ime-mode:disabled" onkeydown="if(event.keyCode==13)event.keyCode=9" onKeyPress="if ((event.keyCode<48 || event.keyCode>57)) event.returnValue=false">
           <br><br>
           推荐单位  /  Recommended<br>
           <input type="text" name="recommended">
           <br><br>
           <span class="error">* <?php echo $emailErr;?></span>
           电邮地址  /  E-mail:<br>
-          <input type="text" name="email">
+          <input type="text" name="email" style="ime-mode:disabled" onkeydown="if(event.keyCode==13)event.keyCode=9" onKeyPress="if ((event.keyCode==32)) event.returnValue=false">
           <br><br>
           <span class="error">* <?php echo $exErr;?></span>
           曾经在舞台上表演过  /  Experience performance<br>

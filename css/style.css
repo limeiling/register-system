@@ -69,7 +69,7 @@ a:active {
 .primary-content{
   text-align: center;
   margin-top: 25px;
-  border-bottom: 35px solid #99CCFF;
+  border-bottom: 30px solid #99CCFF;
 }
 .primary-content p{
   font-size: 26px;
@@ -98,11 +98,6 @@ footer {
   border-color: #99CCFF;
 }
 
-/*#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-  }*/
   #gallery {
     margin: 0;
     padding: 0;
